@@ -1,0 +1,89 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Database files
+*.db
+billing.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+dist/
+build/
+*.exe
+*.o
+*.a
+*.so
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+
+# Logs and outputs
+*.log
+logs/
+*.txt
+*.out
+launcher_console.txt
+runout.txt
+
+# Build artifacts
+archive_contents.txt
+archive_openpyxl.txt
+pyinstaller_*.txt
+warn-*.txt
+xref-*.html
+
+# OS
+Thumbs.db
+.DS_Store
